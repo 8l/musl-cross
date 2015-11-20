@@ -22,9 +22,9 @@ CC_BASE_PREFIX=/opt/cross
 
 MAKEFLAGS=-j8
 
-BINUTILS_VERSION=2.24
-GCC_VERSION=4.8.3
-MUSL_VERSION=1.1.4
+BINUTILS_VERSION=2.25.1
+GCC_VERSION=4.8.5
+MUSL_VERSION=1.1.12
 GCC_BUILTIN_PREREQS=yes
 
 # Enable this to build the bootstrap gcc (thrown away) without optimization, to reduce build time
